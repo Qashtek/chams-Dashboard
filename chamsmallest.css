@@ -1,0 +1,323 @@
+
+/* FOR SMARTPHONES  */
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+
+    .container{
+        width: 100%;
+        height: 1080px;
+    }
+
+    /* LEFT SIDE SECTION */
+#leftSide{
+    width: 100%;
+    min-width: 301px;
+    height: 30x;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+}
+
+ /* ----------------------------- */
+ #logoHere{
+    display: none;
+}
+
+  /* ------DESKTOP NAVIGATION LINKS------------------------- */
+  #navlinks{
+    display: none;
+}
+
+/* ----MOBILE NVAIGATION LINKS */
+#Mobile-navlinks {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* border: 1px solid red; */
+    background: #FCFDFC;
+}
+ 
+.linkA{
+    width: 20%;
+    height: 100%;
+    /* border: 1px dotted crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.linkA a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #444;
+    font-size: 3.3vw;
+    text-align: center;
+    /* border: 1px dotted purple; */
+    padding: 15px 5px;
+}
+
+
+.linkA a:hover {
+    background: rgba(1, 149, 59, 0.05);
+    border-top: 4px solid #01953B;
+} 
+
+
+
+#usernameBelow{
+   display: none;
+}
+
+
+.logOut{
+   display: none;
+}
+
+
+ /* -------TOP SECTION OF MOBILE------------------------ */
+
+ #rightSection{
+    width: 100%;
+    height: 100%;
+    min-width: 301px;
+}
+
+.upperGreeting{
+    width: 100%;
+    height: 10%;
+    /* border: 2px dashed red; */
+    position: relative;
+    padding-left: 15px;
+}
+
+.upperGreeting > #helloName{
+    width: 281px;
+    height: 50px;
+    /* border: 1px solid dodgerblue; */
+    padding-top: 5px;
+    position: absolute;
+    top: 44px;
+
+}
+
+#helloName > p {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: rgb(12, 43, 12);
+}
+
+#helloName > p:nth-child(1) {
+    display: none;
+}
+
+/* --------------------------- */
+
+.upperGreeting > #info{
+   display: none;
+}
+
+.upperGreeting > #userIcons{
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid rgb(6, 95, 28); */
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5px; */
+}
+
+#userIcons #bell {
+    width: 40px;
+    height: 40px;
+    /* border: 1px dashed blue; */
+    display: inline-block;
+    border-radius: 50%;
+    /* position: absolute;
+    top: 22px;  
+    left: 10px;  */
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  #EDF7F1;
+    color: #01953B;
+}
+
+#userIcons #profileAvatar {
+  display: none;
+
+}
+
+/* -------NOTIFICATION BOARD------------------------ */
+
+.NoticeBoard{
+    width: 100%;
+    height: 70%;
+    /* border: 2px dashed rgb(116, 41, 131); */
+    padding: 10px;
+}
+
+ /* -------------------- */
+.leaveGroup{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid green; */
+    position: relative;
+}
+
+
+ .leave{
+    border: 1px solid #D2D2D2;
+    /* height: 100%; */
+}
+
+.taken{
+    float: left;
+    width: 46%;
+    height: 100%;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+}
+
+.taken p:nth-child(1){
+    color: #111;
+    font-size: 27px;
+}
+
+.taken p:nth-child(2){
+    color: #505050;
+    font-size: 14px;
+}
+
+  /* ------------------------------ */
+  .avail{
+    width: 46%;
+    height: 100%;
+    text-align: center;
+    padding-top: 70px;
+    float: left;
+    margin-left: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.avail p:nth-child(1){
+    color: #111;
+    font-size: 27px;
+}
+
+.avail p:nth-child(2){
+    color: #505050;
+    font-size: 14px;
+}
+
+ /* ----------------------- */
+ .annual{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.annual > p{
+    /* border: 1px solid #222; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #111;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 8px;
+}
+
+.annual > .apply{
+    width: 100%;
+    height: 45%;
+    /* border: 1px dashed purple; */
+    position: absolute;
+    bottom: 10px;
+    padding-top: 2px;
+}
+
+.apply > .bagIcon{
+    /* width: 50px; */
+    margin-left: 5px;
+    width: 16%;
+    height: 60%;
+    /* border: 1px solid brown; */
+    float: left;
+    color: #F8C512;
+    background: #FEF7CD;
+    border-radius: 10px;
+    font-size: 1.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply > .leaveDesc{
+    width: 80%;
+    height: 60%;
+    /* border: 1px dotted red; */
+    float: left;
+    padding: 0 5px;
+}
+
+.leaveDesc > p:nth-child(1){
+    display: none;
+}
+
+.leaveDesc > p:nth-child(2){
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.leaveDesc > p:nth-child(3){
+    font-size: 0.9em;
+}
+
+.apply > .applyBtn {
+    width: 100%;
+    height: 40%;
+    /* border: 1px dashed #111; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 15px; */
+}
+
+.applyBtn > a {
+    text-decoration: none; 
+    background: #01953B;
+    color: #fff;
+    font-size: 1em;
+    padding: 7px  30px;
+    width: 90%;
+    text-align: center;
+}
+
+/* ------------------------ */
+.Events{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}
